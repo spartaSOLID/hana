@@ -20,7 +20,7 @@ public class BoardService {
         board.getContent();
         boardRepository.save(board);
     }
-    //게시글 리스트 처리
+    //게시글 리스트 처리입니다
     public List<Board> boardList() {
 
         return boardRepository.findAll();
